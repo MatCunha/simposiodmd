@@ -1,0 +1,115 @@
+/* css da página do simposio by: matheus cunha - 15/04/19 */
+
+/* seletores e classes gerais */
+html, body{
+  background-color: #f4f4f4;
+  height: 100%;
+}
+
+html{  
+  scroll-behavior: smooth;
+}
+
+body{ /* position: relative necessário para o funcionamento do scrollspy */
+  position: relative; 
+}
+
+/* seletores e classes do menu superior */
+.jumbotron-customizado {
+  height: 100%;
+  background-image: url("../img/cacto1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cinza-horario{ /* classe genérica com a cor cinza para estilizar o horário */
+  color: #4A555C;
+}
+
+.preto-menu{ /* classe genérica com a cor preta para reestilizar o texto de elementos */
+  color: black;
+}
+
+.zero-padding{ /* usado apra zerar o padding do jumbotron */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.fas.fa-bars{
+  color: #b20000;
+}
+
+.botao-contato{ /* formatacao do botao contato do menu superior */
+  background-color: #b20000;
+  color: white;
+}
+
+/* seletores e classes do conteúdo principal */
+.vermelho-principal{ /* classe genérica com a cor roxa para estilizar elementos */
+  color: #b20000;
+}
+
+.verde-secundario{ /* classe genérica com a cor azul para estilizar elementos */
+  color: #4B7F52;
+}
+
+.espacamento-elementos{ /* usado para formatar o espacamento da div do anuncio dentro do jumbotron */
+  padding-bottom: 1rem;
+}
+
+.alinhamento-destaque{ /* usado para alinhar os elementos dentro da div do anuncio no jumbotron */
+  margin-top: 15%;
+  margin-bottom: -0.8rem;
+}
+
+.espacamento-card{ /* usado para formatar o espacamento dos cards */
+  margin-top: -1rem;
+}
+
+.espacamento-p{ /* usado para formatar o espacamento dos paragrafos */
+  margin-top: -0.5rem;
+}
+
+.botao1{
+  background-color: #b20000;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.botao2{
+  background-color: #4B7F52;
+  color: white;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.botao-enviar{
+  background-color: #b20000;
+  color: white;
+}
+
+/* seletores e classes do rodape */
+.customizacao-rodape{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background-color: #545454;
+}
+
+.navegacao-rodape{
+  display: inline-block;
+}
+
+.a-rodape{
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  display: inline-block;
+  color: white;
+}
+
+.fab{
+  color: white;
+  font-size: 1.5rem;
+}
