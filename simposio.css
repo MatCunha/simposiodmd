@@ -14,17 +14,17 @@ body{ /* position: relative necessário para o funcionamento do scrollspy */
   position: relative; 
 }
 
+a{ /* tirando as decorações das ancoras */
+  text-decoration: none; 
+}
+
 /* seletores e classes do menu superior */
-.jumbotron-customizado {
+.jumbotron-customizado{
   height: 100%;
-  background-image: url("../img/cacto1.jpg");
+  background-image: url("../img/cacto1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.cinza-horario{ /* classe genérica com a cor cinza para estilizar o horário */
-  color: #4A555C;
 }
 
 .preto-menu{ /* classe genérica com a cor preta para reestilizar o texto de elementos */
@@ -54,39 +54,29 @@ body{ /* position: relative necessário para o funcionamento do scrollspy */
   color: #4B7F52;
 }
 
-.espacamento-elementos{ /* usado para formatar o espacamento da div do anuncio dentro do jumbotron */
-  padding-bottom: 1rem;
-}
-
-.alinhamento-destaque{ /* usado para alinhar os elementos dentro da div do anuncio no jumbotron */
-  margin-top: 15%;
-  margin-bottom: -0.8rem;
-}
-
-.espacamento-card{ /* usado para formatar o espacamento dos cards */
-  margin-top: -1rem;
-}
-
-.espacamento-p{ /* usado para formatar o espacamento dos paragrafos */
-  margin-top: -0.5rem;
-}
-
-.botao1{
-  background-color: #b20000;
+.texto-branco-card{ /* classe de cor branca para uso geral nos cards */
   color: white;
-  margin-bottom: 1rem;
 }
 
-.botao2{
-  background-color: #4B7F52;
-  color: white;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+.corfundo-palestra1{ /* cor de fundo da palestra 1 */
+ background-color: #f1c40f;
 }
 
-.botao-enviar{
-  background-color: #b20000;
-  color: white;
+.corfundo-palestra2{ /* cor de fundo da palestra 2 */
+ background-color: #e67e22;
+}
+
+.corfundo-palestra3{ /* cor de fundo da palestra 3 */
+ background-color: #2ecc71;
+}
+
+/* Ícones cards */
+.fas{
+  color: white; /* icones brancos dos cards */
+}
+
+.tamanho-icone-card{ /* classe criada para modificar o tamanho apenas dos icones dos cards */
+  font-size: 5em;
 }
 
 /* seletores e classes do rodape */
