@@ -21,7 +21,7 @@ a{ /* tirando as decorações das ancoras */
 /* seletores e classes do menu superior */
 .jumbotron-customizado{
   height: 100%;
-  background-image: url("../img/cacto1.png");
+  background-image: url("../img/cacto1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
