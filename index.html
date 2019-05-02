@@ -15,7 +15,7 @@
 	 crossorigin="anonymous">
 
 	<!-- Meu Css -->
-	<link href="css/simposio.css" rel="stylesheet" type="text/css"/>
+	<link href="css/simposio.css" rel="stylesheet" type="text/css" />
 
   <!-- Font Awesome icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -36,216 +36,129 @@
 
         <div class="collapse justify-content-end navbar-collapse" id="menuMobileSuperior">
           <ul class="navbar-nav">
-            <li><a href="#fatec" class="nav-item nav-link preto-menu">SOBRE A <b>FATEC</b></a></li>
             <li><a href="#simposio" class="nav-item nav-link preto-menu">O SIMPÓSIO</a></li>
-            <li><a href="#calendario" class="nav-item nav-link preto-menu">CALENDÁRIO DO EVENTO</a></li>
+            <li><a href="#calendario" class="nav-item nav-link preto-menu">ATIVIDADES DO EVENTO</a></li>
+            <li><a href="#fatec" class="nav-item nav-link preto-menu">SOBRE A <b>FATEC</b></a></li>
           </ul>
-            <a href="#contato" class="nav-item nav-link preto-menu align-bottom"><button class="btn botao-contato">CONTATO</button></a>
+            <a href="#inscreva" class="nav-item nav-link preto-menu align-bottom"><button class="btn botao-contato">INSCREVA-SE</button></a>
         </div>
 		  </nav>
 	  </header>
-  
-    <!-- Anúncio do simpósio -->
-    <div class="container espacamento-elementos">
-      <p class="display-3 font-weight-normal vermelho-principal alinhamento-destaque">1º Simpósio</p>
-      <p class="display-3 font-weight-bold vermelho-principal">Design de Mídias Digitais</p>
-      <p class="lead font-weight-normal">15 a 17 de Maio, 2019. Barueri, São Paulo.</p>
-    </div>
-  </div>
-
+	</div>
   <main>
-    <!-- Primeira parte conteúdo principal e a parte sobre a Fatec -->
+
+    <!-- Primeira parte do conteúdo principal relativo a descrição do simpósio -->
     <section class="container">
-      <div class="mx-auto" style="width: 300px;">
-        <h2 class="font-weight-bold vermelho-principal" id="fatec">SOBRE A FATEC</h2>
+      <div class="text-center">
+        <h2 class="font-weight-bold vermelho-principal" id="simposio">O SIMPÓSIO</h2>
       </div>
-        <p class="lead">Localizada na zona oeste da região metropolitana da Grande São Paulo, a uma distância de 26,5 quilômetros da capital, Barueri é um município que concentra grande número de empresas e indústrias multinacionais. Os cursos oferecidos pela Faculdade de Tecnologia de Barueri foram criados para atender a necessidade de mão de obra qualificada desta região.</p>
-        <p class="lead">Inaugurada em 17 de agosto de 2009, a Fatec Barueri oferece gratuitamente os Cursos Superiores de Tecnologia em Eventos, Tecnologia em Gestão da Tecnologia da Informação, Tecnologia em Gestão Empresarial (Curso EaD), Tecnologia em Comércio Exterior, Tecnologia em Transporte Terrestre, Tecnologia em Logística, Tecnologia em Gestão de Recursos Humanos e Tecnologia em Design de Mídias Digitais. Os cursos têm duração de seis semestre, nos períodos matutino, vespertino, noturno e a distância.</p>
+
+      <!-- Descrição simpósio -->
+      <p class="lead text-center">A Fatec Barueri te convida a participar do Primeiro Simpósio de Mídias Digitais, totalmente voltado à área de marketing, design e programação. Durante os dias 15 e 16 de maio, receberemos grandes profissionais do ramo para falar sobre desenvolvimento de sites, empreendedorismo digital e metodologias ágeis.</p>
+
+    <!-- Segunda parte do conteúdo principal relativo ao calendário e botões drop-down -->
+    <section class="container mt-5">
+      <div class="mx-auto" style="width: 400px;">
+        <h2 class="font-weight-bold vermelho-principal" id="calendario">ATIVIDADES DO EVENTO</h2>
+      </div>
+        
+        <!-- Início dos cards -->
+        <div class="card-deck">
+
+          <!-- palestra 1 -->
+          <div class="card corfundo-palestra1 pt-3">
+            <span class="text-center"><i class="fas fa-bullhorn tamanho-icone-card"></i></span>
+            <div class="card-body">
+              <div class="text-center"><time class="texto-branco-card">15/05: 19h:30 - 20h:30</time></div>
+              <h4 class="text-center texto-branco-card"><b>ABERTURA DO </br> SIMPÓSIO</b></h4>
+              <p class="text-center lead texto-branco-card"><b>Entenda o universo das mídias digitais e a influência das novas tecnologias na dinâmica do mercado de trabalho.</b></p>
+
+              <!-- Palestrante 1 -->
+              <h4 class="text-center texto-branco-card"><b>AMANDA GOUVEIA</b></h4>
+              <p class="text-center texto-branco-card">Sócia da Start-up Arqui4D, Head de estratégia de negócios na América Latina do aplicativo AUGmentecture Inc. e parceira da revista <b>PROJETO</b>.</p>
+              <div class="text-center"><button type="button" class="btn btn-outline-light">
+              <a class="texto-branco-card" href="https://www.linkedin.com/in/amanda-gouveia-564399167/">Saiba mais</a></button></div>
+
+              <!-- palestrante 2 -->
+              <h4 class="text-center texto-branco-card"><b>ALINE ROCHA</b></h4>
+              <p class="text-center texto-branco-card">Sócia da Start-up Arqui4D, Head de marketing e vendas na América Latina do aplicativo AUGmentecture Inc. e parceira da revista <b>PROJETO</b>.</p>
+              <div class="text-center"><button type="button" class="btn btn-outline-light">
+              <a class="texto-branco-card" href="https://www.linkedin.com/in/aline-rocha-32b86a14a/">Saiba mais</a></button></div>
+            </div>
+          </div>
+
+          <!-- palestra 2 -->
+          <div class="card corfundo-palestra2 pt-3">
+            <span class="text-center"><i class="fas fa-gamepad tamanho-icone-card"></i></span>
+            <div class="card-body">
+              <div class="text-center"><time class="texto-branco-card">15/05: 20h:30 - 22h:30</time></div>
+              <h4 class="text-center texto-branco-card"><b>METODOLOGIA ÁGIL COM GAMEFICAÇÃO</b></h4>
+              <p class="text-center lead texto-branco-card"><b>Aprenda sobre gestão e planejamento de projetos de software com Design Thinking, Design Sprint e Management 3.0.  </b></p>
+              
+              <!-- Palestrante -->
+              <h4 class="text-center texto-branco-card"><b>RODRIGO CAIXETA</b></h4>
+              <p class="text-center texto-branco-card">Vencedor do prêmio Projetos do Ano em 2014 por fundar The Scrum Game Simulator, tem experiência com Big Data e Engenharia de Software. </p>
+              <div class="text-center"><button type="button" class="btn btn-outline-light">
+              <a class="texto-branco-card"href="https://www.linkedin.com/in/rcaixeta/">Saiba mais</a></button></div>
+            </div>
+          </div>
+
+          <!-- palestra 3 -->
+          <div class="card corfundo-palestra3 pt-3">
+            <span class="text-center"><i class="fas fa-laptop tamanho-icone-card"></i></span>
+            <div class="card-body">
+              <div class="text-center"><time class="texto-branco-card">16/05: 19h:20 - 22h:30</time></div>
+              <h4 class="text-center texto-branco-card"><b>MARKETING DIGITAL E WEB FULL STACK</b></h4>
+              <p class="text-center lead texto-branco-card"><b>Gerencie seu negócio pela Internet e descubra como funciona o processo de desenvolvimento de sites.</b></p>
+
+              <!-- Professor 1 -->
+              <h4 class="text-center texto-branco-card"><b>ANA PAULA</b></h4>
+              <p class="text-center texto-branco-card">Professora de Web Full Stack na Digital House</p>
+              <div class="text-center"><button type="button" class="btn btn-outline-light">
+              <a class="texto-branco-card" href="https://www.linkedin.com/in/anapaulamba/">Saiba mais</a></button></div>
+              
+              <!-- Professor 2 -->
+              <h4 class="text-center texto-branco-card mt-3"><b>CELIO RICARDI</b></h4>
+              <p class="text-center texto-branco-card">Professor de Negócios Digitais na Digital House</p>
+              <div class="text-center"><button type="button" class="btn btn-outline-light">
+              <a class="texto-branco-card" href="https://www.linkedin.com/in/celioricardi/">Saiba mais</a></button></div>
+
+              <!-- Professor 3 -->
+              <h4 class="text-center texto-branco-card mt-3"><b>HUGO ROSSO</b></h4>
+              <p class="text-center texto-branco-card">Coordenador dos cursos de Marketing Digital na Digital House</p>
+              <div class="text-center"><button type="button" class="btn btn-outline-light">
+              <a class="texto-branco-card" href="https://www.linkedin.com/in/hugorosso/">Saiba mais</a></button></div>
+            </div>
+          </div>
+        </div> 
+    </section>
+
+      <!-- Formulário de confirmação -->
+      <section class="container mt-5" id="inscreva">
+        <h2 class="font-weight-bold text-center vermelho-principal">INSCREVA-SE</h2>
+        <p class="lead text-center"><b>Nossas atividades são limitadas pela capacidade de pessoas que o ambiente pode suportar, por isso, pedimos que você confirme sua presença preenchendo o formulário abaixo!</b></p>
+        <div class="embed-responsive-item text-center mt-5">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd03OZwltdgMbgsbC81QluazBEaEqSBK1UvLp5Hgcc2KGq_6Q/viewform?embedded=true" width="640" height="910" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        </div>
+      </section>
+
+      <!-- Informações -->
+      <section class="container mt-5 text-center">    
+            <h3 class="font-weight-bold verde-secundario">Informações de contato</h3>
+          <p class="lead">
+            <b>Av. Carlos Capriotti, 123<br> Centro, Barueri - SP, 06401-136<br>(11) 4198-3121</b>
+          </p>
+      </section>
+
+    <!-- Terceira parte do conteúdo principal e a parte sobre a Fatec -->
+    <section class="container text-center mt-5">
+        <h2 class="font-weight-bold vermelho-principal" id="fatec">SOBRE A FATEC</h2>
+        <p class="lead">Inaugurada em 17 de agosto de 2009, a Fatec Barueri oferece gratuitamente os Cursos Superiores de Tecnologia em Eventos, Tecnologia em Gestão da Tecnologia da Informação, Tecnologia em Gestão Empresarial (Curso EaD), Tecnologia em Comércio Exterior, Tecnologia em Transporte Terrestre, Tecnologia em Logística, Tecnologia em Gestão de Recursos Humanos e Tecnologia em Design de Mídias Digitais. Os cursos têm duração de seis semestre, nos períodos matutino, vespertino e noturno.</p>
 
       <!-- Imagem da entrada da Fatec -->
       <figure>
         <img src="img/bgFatec.jpg" alt="Foto da entrada da FATEC Barueri" class="img-fluid">
       </figure>
-    </section>
-
-    <!-- Segunda parte do conteúdo principal relativo a descrição do simpósio -->
-    <section class="container">
-      <div class="mx-auto" style="width: 250px;">
-        <h2 class="font-weight-bold vermelho-principal" id="simposio">O SIMPÓSIO</h2>
-      </div>
-
-      <p class="lead">A Fatec Barueri te convida a participar do primeiro Simpósio de Mídias Digitais, totalmente voltado à area de marketing, design e tecnologias 4.0. Do dia 15 a 17 de Maio, contaremos com a presença de grandes profissionais do ramo para falar sobre desenvolvimento de sites, negócios digitais, inclusão social e empoderamento.</p>
-
-      <!-- Imagem e logo do simpósio -->
-      <figure>
-        <img src=".jpg" alt="" class="img-fluid">
-      </figure>
-    </section>
-
-    <!-- Terceira parte do conteúdo principal relativo ao calendário e atividades -->
-    <section class="container">
-      <div class="mx-auto" style="width: 400px;">
-        <h2 class="font-weight-bold vermelho-principal" id="calendario">CALENDÁRIO DO EVENTO</h2>
-      </div>
-        
-      <!-- palestra 1 -->
-      <div class="card-deck mb-5">
-        <div class="card">
-          <figure>
-          <img class="card-img-top" src="img/imgPalestra1.jpeg" alt="Imagem de abertura do simpósio">
-          </figure>
-          <div class="card-body">
-            <time class="cinza-horario">15 de Maio de 2019 - 19:30</time>
-            <h4 class="card-title vermelho-principal"><b>Abertura do simpósio</b></h4>
-            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <a href="#">
-              <h4 class="verde-secundario"><b>Jadir Mendonça</b> - Coordenador do curso</h4>
-            </a>
-          </div>
-        </div>
-
-        <!-- palestra 2 -->
-        <div class="card">
-          <figure>
-          <img class="card-img-top" src="img/imgPalestra2.jpeg" alt="Imagem da palestra 2">
-          </figure>
-          <div class="card-body">
-            <time class="cinza-horario">15 de Maio de 2019 - 19:30</time>
-            <h4 class="card-title vermelho-principal"><b>The Scrum Game - Métodos Ágeis e Gameficação</b></h4>
-            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <a href="#">
-              <h4 class="verde-secundario"><b>Palestrante X</b> - Cara legal do scrum</h4>
-            </a>
-          </div>
-        </div>
-      </div>
-
-          <!-- palestra 3 -->
-          <div class="card-deck mb-5">
-            <div class="card">
-              <figure>
-              <img class="card-img-top" src="img/imgPalestra3.jpeg" alt="Imagem da palestra 3">
-              </figure>
-            <div class="card-body">
-              <time class="cinza-horario">15 de Maio de 2019 - 19:30</time>
-              <h4 class="card-title vermelho-principal"><b>Marketing Digital, Negócios Digitais e Desenvolvimento Full Stack</b></h4>
-              <p class="card-text">Deseja alavancar seu negócio pela internet ou tem curiosidade sobre como funciona o desenvolvimento de sites? Não perca a chance de sanar suas dúvidas diretamente com os profissionais da Digital House!</p>
-              <p class="card-text">Durante o bate papo eles apresentarão uma gama de recursos e estratégias disponíveis hoje no mercado para construir um método eficiente de divulgação e empreendedorismo no mundo digital.</p>
-              <a href="#">
-                <h4 class="verde-secundario"><b>Pessoa maneira Y</b> - Manjadora das web tudo</h4>
-              </a>
-            </div>
-          </div>
-
-          <!-- palestra 4 -->
-          <div class="card">
-            <figure>
-            <img class="card-img-top" src="img/imgPalestra4.jpeg" alt="Imagem da palestra 4">
-            </figure>
-            <div class="card-body">
-              <time class="cinza-horario">15 de Maio de 2019 - 19:30</time>
-              <h4 class="card-title vermelho-principal"><b>Feminismo e comunidade LGBT no mercado tecnológico</b></h4>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              <a href="#">
-                <h4 class="verde-secundario"><b>Pessoa inclusiva Z</b> - Mana arrasadora!</h4>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Quarta parte do conteúdo principal e formulário de inscrição das palestras -->
-      <section class="container">
-        <div class="mx-auto" style="width: 220px;">
-          <h2 class="font-weight-bold vermelho-principal" id="contato">INSCREVA-SE!</h2>
-        </div>
-        <p class="lead"><b>Nossas atividades são limitadas pela capacidade de pessoas que o ambiente pode suportar, por isso, pedimos que você confirme sua presença antecipadamente!</b></p>
-        <div>
-          <h3 class="font-weight-bold verde-secundario">Selecione as atividades</h3>
-        </div>
-
-        <!-- Botões de seleção de atividades -->
-        <form>
-          <fieldset>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="atividade1">
-              <label class="form-check-label" for="atividade1">
-                <b>15/05 - Abertura do simpósio</b>
-              </label>
-            </div>
-
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="atividade2">
-              <label class="form-check-label" for="atividade2">
-                <b>15/05 - Scrum Game</b>
-              </label>
-            </div>
-
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="atividade3">
-              <label class="form-check-label" for="atividade3">
-                <b>16/05 - Negócios Digitais, Marketing Digital e Desenvolvimento Full Stack</b>
-              </label>
-            </div>
-
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="atividade4">
-              <label class="form-check-label" for="atividade4">
-                <b>16/05 - Feminismo e comunidade LGBT no mercado de tecnologia</b>
-              </label>
-            </div>
-
-            <!-- Formulário de confirmação -->
-            <div class="form-group mb-0">
-              <label for="confirmacaoNome"></label>
-              <input type="text" class="form-control" id="confirmacaoNome" placeholder="Seu nome">
-
-              <label for="confirmacaoEmail"></label>
-              <input type="email" class="form-control" id="confirmacaoEmail" placeholder="Seu email">
-            </div>
-
-            <!-- Botão para enviar confirmação -->
-            <button type="submit" class="btn botao-enviar">Enviar!</button>
-          </fieldset>
-        </form>
-    
-        <!-- Início do formulário de contato -->
-        <div class="mx-auto" style="width: 150px;">
-          <h2 class="font-weight-bold vermelho-principal">CONTATO</h2>
-        </div>
-
-      <div class="clearfix">
-        <div class="float-left mr-5">
-          <div>
-            <h3 class="font-weight-bold verde-secundario">Informações de contato</h3>
-          </div>
-
-          <p class="lead">
-            <b>Av. Carlos Capriotti, 123<br> Centro, Barueri - SP, 06401-136<br>(11) 4198-3121</b>
-          </p>
-        </div>
-
-        <!-- Formulário de contato -->
-        <div class="float-left w-50">
-            <form>
-              <fieldset>
-                <div class="form-group mb-0">
-                  <label for="contatoNome"><b>Nos envia sua mensagem</b></label>
-                  <input type="text" class="form-control" id="contatoNome" placeholder="Seu nome">
-
-                  <label for="contatoEmail"></label>
-                  <input type="email" class="form-control" id="contatoEmail" placeholder="Seu email">
-
-                  <label for="contatoTexto"></label>
-                  <textarea class="form-control" id="contatoTexto" placeholder="Insira sua mensagem" required></textarea>
-
-                  <!-- Botão para enviar informações de contato -->
-                  <button type="submit" class="btn botao-enviar">Enviar!</button>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-      </div> 
     </section>
   </main>
 
@@ -265,7 +178,7 @@
       </ul>
     </nav>
 
-    <!-- linkedin do desenvolvedor -->
+    <!-- merchan do dev :D -->
     <a class="a-rodape align-right" href="https://www.linkedin.com/in/matheus-araujo-cunha/">
       &copy; Matheus C. - 2019
     </a>
